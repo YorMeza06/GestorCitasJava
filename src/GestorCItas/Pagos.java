@@ -1,4 +1,4 @@
-package GestorPagos;
+package GestorCItas;
 
 public class Pagos {
     public static void main(String[] args) {

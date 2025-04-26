@@ -1,4 +1,4 @@
-package GestorPagos;
+package GestorCItas;
 
 public class MostrarPagos {
 

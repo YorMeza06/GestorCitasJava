@@ -1,4 +1,4 @@
-package login;
+package GestorCItas;
 
 import java.util.Scanner;
 
