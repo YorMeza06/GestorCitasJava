@@ -84,7 +84,7 @@ public class Paciente {
 
     // Sobrecarga de Métodos
     public void mostrar_informacion(){
-        System.out.println("El nro DNI del paciente es: " + DNI);
+        System.out.println("DNI: " + DNI);
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido Paterno: " + apaterno);
         System.out.println("Apellido Materno: " + amaterno);
