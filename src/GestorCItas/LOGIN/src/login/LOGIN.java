@@ -1,20 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package login;
 
-/**
- *
- * @author MENDOZA
- */
+import java.util.Scanner;
+
 public class LOGIN {
 
-    /**
-     * @param args the command line arguments
-     */
+//Esta sera una muestra del login de pacientes que realizaremos 
     public static void main(String[] args) {
-        // TODO code application logic here
+ Scanner teclado=new Scanner(System.in);
+ String usuarioRegistrado="Ricardo";
+ String contrasenaRegistrada="123456";
+ String usuario;
+ String contrasena;
+ 
+        System.out.println("Hola vamos a validad tus credenciales de acceso");
+        System.out.println("ingresa tu usuario");
+        usuario=teclado.next();
+        System.out.println("ingresa tu contraseña");
+        contrasena=teclado.next();
+        
+        if(usuario.equalsIgnoreCase(usuarioRegistrado) & contrasena.equalsIgnoreCase(contrasenaRegistrada) ){
+            System.out.println("Bienvenido "+ usuario);
+        
+        }
+        else{
+            System.out.println("Usuario o contraseña incorrecta");
+        }
     }
     
 }
