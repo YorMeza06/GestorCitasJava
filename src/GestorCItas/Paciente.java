@@ -13,7 +13,7 @@ public class Paciente {
 
     // Constructor sin parámetros
     public Paciente() {
-        // Constructor vacío, puedes establecer valores después.
+        
     }
 
     // Métodos Setters
@@ -49,7 +49,7 @@ public class Paciente {
         this.direccion = direccion;
     }
 
-    // Métodos Getters (mantenidos igual)
+    // Métodos Getters
     public String Dni() {
         return DNI;
     }
@@ -82,7 +82,7 @@ public class Paciente {
         return direccion;
     }
 
-    // Sobrecarga de Métodos
+    // Sobrecarga de Método 1
     public void mostrar_informacion(){
         System.out.println("DNI: " + DNI);
         System.out.println("Nombre: " + nombre);
@@ -93,12 +93,12 @@ public class Paciente {
         System.out.println("Correo Electronico: " + correo);
         System.out.println("Direccion: " + direccion);
     }
-
+    // sobrecarga de metodo 2
     public void mostrar_informacion(Boolean mostrarNombreCompleto) {
         System.out.println("Paciente registrado con nombres: " + nombre + " " + apaterno + " " +
             amaterno + ", Identificado con DNI nro; " + DNI);
     }
-    
+    // sobrecarga de metodo 3
     public void mostrar_informacion(String otrosDatos){
         System.out.println("Edad: " + edad);
         System.out.println("Numero de contacto: " + telefono);
